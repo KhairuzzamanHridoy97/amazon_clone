@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+
 
 function Header() {
   return (
@@ -16,7 +18,7 @@ function Header() {
 
             <div className="header_option">
                 <span className="header_optionLineOne">
-                    Hello 
+                    Hello User
                 </span>
                 <span className="header_optionLineTwo">
                     Sign In
@@ -41,8 +43,11 @@ function Header() {
                 </span>
             </div>
 
-            <div className="header_option">
-                
+            <div className="header_optionBasket">
+                <ShoppingBasketIcon/>
+                <span className="header_optionLineTwo_basket_Counter">
+                    0
+                </span>
             </div>
         </div>
     </div>

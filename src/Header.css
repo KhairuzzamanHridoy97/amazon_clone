@@ -52,7 +52,20 @@
 .header_optionLineOne{
     font-size: 10px;
 }
+
 .header_optionLineTwo{
     font-size: 15px;
     font-weight: 1000px;
 }
+
+.header_optionBasket{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+}
+
+.header_optionLineTwo_basket_Counter{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
