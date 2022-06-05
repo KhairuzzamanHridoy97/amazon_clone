@@ -48,3 +48,11 @@
     margin-right: 10px;
     color: aliceblue;
 }
+
+.header_optionLineOne{
+    font-size: 10px;
+}
+.header_optionLineTwo{
+    font-size: 15px;
+    font-weight: 1000px;
+}
