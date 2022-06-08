@@ -2,20 +2,19 @@ import './App.css';
 import Header from './Header';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Checkout from './Checkout';
 
 function App() {
   return (
     <div className="App">
       <Router>
+          <Header></Header>
         <Switch>
           <Route path='/checkout'>
-          <Header></Header>
-          <h1>I am a CHECKOUT, SMASH THE LIKE BUTTON</h1>
+              <Checkout/>
           </Route>
           <Route path='/'>
-
-      <Header></Header>
-      <Home></Home>
+            <Home></Home>
           </Route>
         </Switch>
       </Router>
