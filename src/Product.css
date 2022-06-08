@@ -18,3 +18,14 @@
     object-fit: contain;
     margin-bottom: 15px;
 }
+
+.product > button{
+    background: rgb(218, 158, 46);
+    border: 1px solid;
+    margin-top: 10px;
+    color: black;
+}
+
+.product_rating{
+    display: flex;
+}
